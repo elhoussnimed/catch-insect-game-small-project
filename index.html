@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insect Catch Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <section class="play_game">
+            <h1>catch the insect</h1>
+            <button type="button">play game</button>
+        </section>
+        <section class="select_insect">
+            <h2>what is your "favorite" insects ?</h2>
+            <div class="insects">
+                <div class="insect">
+                    <h4>fly</h4>
+                    <img src="./images/fly.png" alt="">
+                </div>
+                <div class="insect">
+                    <h4>mosquito</h4>
+                    <img src="./images/mosquito.png" alt="">
+                </div>
+                <div class="insect">
+                    <h4>roach</h4>
+                    <img src="./images/roach.png" alt="">
+                </div>
+                <div class="insect">
+                    <h4>spider</h4>
+                    <img src="./images/spider.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="game">
+            <header>
+                <div class="time">
+                    <p>time :</p>
+                    <p class="counter"><span class="minutes">00</span>:<span class="seconds">00</span> </p>
+                </div>
+                <div class="score">
+                    <p>score :</p>
+                    <p class="game_score">0</p>
+                </div>
+            </header>
+            <div class="playing_field"></div>
+        </section>
+        <audio src="click.mp3" type="audio/mpeg" class="click"></audio>
+    </div>
+</body>
+
+</html>
